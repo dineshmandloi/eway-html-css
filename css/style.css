@@ -9,6 +9,9 @@ header {
     margin: 15px 0;
 
 }
+ul{
+    list-style: none;
+}
 
 a {
     text-decoration: none;
@@ -265,15 +268,114 @@ body {
     text-transform: uppercase;
     font-size: 13px;
 }
-.imgText p{
+
+.imgText p {
     font-size: 13px;
     padding-bottom: 35px;
 }
 
 /* brand */
-.brand{
+.brand {
     display: flex;
 }
-.brand div img{
+
+.brand div img {
     max-width: 308px;
+}
+
+/* business update */
+.business-update {
+    display: flex;
+    background-color: #f3f3f3;
+    align-items: center;
+}
+
+.businessText {
+    padding: 20px;
+}
+
+.businessText a {
+    color: #c00;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* footer */
+footer {
+    background: #444;
+}
+
+.footMenu {
+    display: flex;
+    color: white;
+    padding: 50px 0px;
+}
+
+.footMenu>div {
+    max-width: clac(100%);
+    flex: 1 1 100%;
+}
+
+.footMenu ul {
+    list-style: none;
+}
+
+.footMenu ul li {
+    padding: 4px 0;
+}
+
+.footMenu ul li a {
+    color: white;
+    font-size: 13px;
+}
+
+.join {
+    margin-top: 18px;
+}
+
+/* social media  */
+
+.social-media {
+    background-color: #666;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+
+.social-icon i {
+    font-size: 32px;
+    color: white;
+    padding-right: 8px;
+}
+
+.social-icon p {
+    font-size: 14px;
+    color: white;
+    padding-bottom: 9px;
+    font-weight: 600;
+}
+
+.socialImg {
+    display: flex;
+}
+
+.socialImg img {
+    padding-left: 20px;
+    
+}
+
+/* copyright */
+.copyRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 15px;
+    color: white;
+    font-size: 14px;
+}
+.copyRight>div ul li{
+    display: inline-block;
+}
+.copyRight>div ul li a{
+    color: white;
 }
